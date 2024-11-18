@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="shortcut icon" href="img/coca_logo.png" type="image/x-icon">
+    <style>
+        .mari{
+            display: grid;
+            grid-template-areas:"tit tit tit"
+                                "sup sup imagene"
+                                "par par imagene"
+                                "tap tap imagene"
+                                "inf1 inf2 imagene";
+            grid-template-columns: 1fr 1fr 1fr;
+            margin: 10px;
+            gap: 4px;
+        }
+
+        .cielo1{
+            grid-area: sup;
+        }
+
+        .cielo2{
+            grid-area: par;
+        }
+
+        .cielo3{
+            grid-area: tap;
+        }
+
+        .cielo4{
+            grid-area: tit;
+            background-color: rgb(218, 94, 94);
+            color: white;
+            margin-bottom: 15px;
+        }
+
+        .cielo5{
+            grid-area: inf1;
+        }
+
+        .cielo6{
+            grid-area: inf2;
+        }
+
+        .cielo7{
+            grid-area: imagene;
+        }
+
+        .imageni{
+            padding-left: 8px;
+            padding-right: 8px;
+            border-bottom: 8px solid black;
+            border-top: 8px solid black;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <div id="logo">
+                <img src="img/coca_letra_black.png" alt="">
+            </div>
+        </header>
+<hr>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html"><i class="fa-solid fa-house" style="color: #000000;"></i> INICIO</a></li>
+                <li><a href="nosotros.html"><i class="fa-solid fa-users" style="color: #000000;"></i> NOSOTROS</a></li>
+                <li><a href="blog.html"><i class="fa-solid fa-pencil" style="color: #000000;"></i> BLOG</a></li>
+                <li><a href="galeria.html"><i class="fa-solid fa-image" style="color: #000000;"></i> GALERIA</a></li>
+                <li><a href="videos.html"><i class="fa-solid fa-video" style="color: #000000;"></i> VIDEOS</a></li>
+                <li><a href="contactanos.html"><i class="fa-solid fa-id-card" style="color: #000000;"></i> CONTACTANOS</a></li>
+            </ul>
+        </nav>
+<hr>
+        <div class="mari">
+            <div class="cielo4">
+                <h2>Nosotros</h2>
+            </div>
+            <div class="cielo1">
+                <p>Coca-Cola es una compañía globalmente reconocida y valorada, dedicada a ofrecer momentos de disfrute y a refrescar el mundo desde 1886. Lo que comenzó como una pequeña bebida en una farmacia en Atlanta, Georgia, se ha transformado en una de las marcas más icónicas y apreciadas, presente en la vida de personas en más de 200 países alrededor del planeta.</p> <br>
+            </div>
+            <div class="cielo2">
+                <p>Nuestra misión va más allá de simplemente ofrecer bebidas; buscamos inspirar felicidad, optimismo y promover un estilo de vida equilibrado para nuestros consumidores. Nos esforzamos por evolucionar con el tiempo y adaptar nuestro portafolio de más de 500 marcas para satisfacer las necesidades de cada persona en cada lugar del mundo. Esto incluye refrescos tradicionales, opciones bajas en calorías y bebidas innovadoras que promueven el bienestar y el cuidado personal.</p> <br>
+            </div>
+            <div class="cielo3">
+                <p>El compromiso de Coca-Cola con la sostenibilidad es una de nuestras mayores prioridades. Nos hemos comprometido a minimizar el impacto ambiental mediante iniciativas como el uso de materiales reciclados en nuestros empaques y el objetivo de recolectar y reciclar una botella o lata por cada una que vendemos para el año 2030. Además, gestionamos el agua de manera responsable, devolviendo a la naturaleza el agua que utilizamos y apoyando a comunidades con proyectos de acceso a agua potable.</p> <br>
+            </div>
+            <div class="cielo5">
+                <img class="imageni sapa" src="img/agencia-1.jfif" width="280px" height="200px" alt="">
+            </div>
+            <div class="cielo6">
+                <img class="imageni sapo" src="img/agencia-2.jfif" width="300px" height="200px" alt="">
+            </div>
+            <div class="cielo7">
+                <img src="https://picsum.photos/360/850" alt="">
+            </div>
+        </div>
+<hr>
+        <footer>
+            <div id="redes">
+                <img src="img/logo_fb.png" alt="">
+                <img src="img/logo_ig.png" alt="">
+                <img src="img/logo_tiktok.png" alt="">
+                <img src="img/logo_x.png" alt="">
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
